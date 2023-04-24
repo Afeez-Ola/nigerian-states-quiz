@@ -8,4 +8,6 @@ screen.setup(width=900, height=900)
 screen.addshape("nigeria40.gif")
 turtle.shape("nigeria40.gif")
 
+
+
 screen.exitonclick()
