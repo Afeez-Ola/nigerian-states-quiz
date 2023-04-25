@@ -13,3 +13,5 @@ class Score(Turtle):
 
     def score_board(self):
         return self.result
+
+    def final_score

@@ -31,6 +31,7 @@ missing_states = []
 while len(guessed_state) < attempts:
     answer_text = (screen.textinput(title=score, prompt="What's another state's name? ")).title()
     if answer_text == "Exit":
+        score_turtle = turtle.Turtle()
         # Check for missing states
         for item in state_list:
             if item not in guessed_state:
