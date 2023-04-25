@@ -23,12 +23,11 @@ x_list = list(x_coor.values())
 y_list = list(y_coor.values())
 
 # Initialize game variables
-attempts = 50
 guessed_state = []
 missing_states = []
 
 # Game loop
-while len(guessed_state) < attempts:
+while len(guessed_state) < len(state_list):
     answer_text = (screen.textinput(title=score, prompt="What's another state's name? ")).title()
     if answer_text == "Exit":
         scoreboard.final_score()

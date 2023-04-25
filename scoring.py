@@ -4,11 +4,12 @@ from turtle import Turtle
 class Score(Turtle):
     def __init__(self):
         super().__init__()
-        self.result = "0/36 states correct"
+        self.state_len = 36
+        self.result = f"0/{self.state_len} states correct"
         self.color("black")
 
     def update_score(self):
-        self.result = f"{int(self.result.split('/')[0]) + 1}/36 states correct"
+        self.result = f"{int(self.result.split('/')[0]) + 1}/{self.state_len}  correct"
         return self.result
 
     def score_board(self):
