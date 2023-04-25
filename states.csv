@@ -1,38 +1,38 @@
 ,state,x,y
-0,Abia,1,1
-1,Adamawa,2,2
-2,Akwa Ibom,3,3
-3,Anambra,4,4
-4,Bauchi,5,5
-5,Bayelsa,6,6
-6,Benue,7,7
-7,Borno,8,8
-8,Cross River,9,9
-9,Delta,10,10
-10,Ebonyi,11,11
-11,Edo,12,12
-12,Ekiti,13,13
-13,Enugu,14,14
-14,FCT - Abuja,15,15
-15,Gombe,16,16
-16,Imo,17,17
-17,Jigawa,18,18
-18,Kaduna,19,19
-19,Kano,20,20
-20,Katsina,21,21
-21,Kebbi,22,22
-22,Kogi,23,23
-23,Kwara,24,24
-24,Lagos,25,25
-25,Nasarawa,26,26
-26,Niger,27,27
-27,Ogun,28,28
-28,Ondo,29,29
-29,Osun,30,30
-30,Oyo,31,31
-31,Plateau,32,32
-32,Rivers,33,33
-33,Sokoto,34,34
-34,Taraba,35,35
-35,Yobe,36,36
-36,Zamfara,37,37
+0,Abia,-43,-183
+1,Adamawa,257,15
+2,Akwa Ibom,-53,-287
+3,Anambra,-121,-192
+4,Bauchi,66,92
+5,Bayelsa,-181,-295
+6,Benue,20,-120
+7,Borno,319,228
+8,Cross River,4,-218
+9,Delta,-190,-257
+10,Ebonyi,-41,-186
+11,Edo,-191,-171
+12,Ekiti,-235,-97
+13,Enugu,-87,-179
+14,FCT - Abuja,-100,-12
+15,Gombe,171,84
+16,Imo,-113,-246
+17,Jigawa,41,234
+18,Kaduna,-57,75
+19,Kano,-7,178
+20,Katsina,-70,252
+21,Kebbi,-292,170
+22,Kogi,-144,-90
+23,Kwara,-288,-33
+24,Lagos,-352,-170
+25,Nasarawa,-28,-45
+26,Niger,-165,42
+27,Ogun,-377,-133
+28,Ondo,-267,-150
+29,Osun,-274,-101
+30,Oyo,-345,-54
+31,Plateau,63,20
+32,Rivers,-135,-285
+33,Sokoto,-234,281
+34,Taraba,136,-69
+35,Yobe,190,221
+36,Zamfara,-159,215
