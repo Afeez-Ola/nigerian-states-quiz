@@ -38,17 +38,19 @@ while len(guessed_state) < len(state_list):
         remaining_states = pandas.DataFrame({"state": missing_states})
         remaining_states.to_csv("remaining_states.csv")
         break
+
     if answer_text in state_list:
-        # Update turtle with guessed state name
-        text_turtle = turtle.Turtle()
-        text_turtle.hideturtle()
-        text_turtle.penup()
-        index = state_list.index(answer_text)
-        text_turtle.color("green")
-        text_turtle.goto(x_list[index], y_list[index])
-        text_turtle.write(answer_text)
-        guessed_state.append(answer_text)
-        score = scoreboard.update_score()
+        if answer_text not in guessed_state:
+            # Update turtle with guessed state name
+            text_turtle = turtle.Turtle()
+            text_turtle.hideturtle()
+            text_turtle.penup()
+            index = state_list.index(answer_text)
+            text_turtle.color("blue")
+            text_turtle.goto(x_list[index], y_list[index])
+            text_turtle.write(answer_text, font=("Arial", 12, "bold"))
+            guessed_state.append(answer_text)
+            score = scoreboard.update_score()
     else:
         print("Nope: " + answer_text)
 
