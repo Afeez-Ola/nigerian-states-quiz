@@ -14,4 +14,8 @@ class Score(Turtle):
     def score_board(self):
         return self.result
 
-    def final_score
+    def final_score(self):
+        score_turtle = Turtle()
+        score_turtle.hideturtle()
+        score_turtle.penup()
+        score_turtle.write(self.result, align="center", font=("Calibri", 24, "bold"))
